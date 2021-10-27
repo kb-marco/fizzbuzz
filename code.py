@@ -2,7 +2,13 @@
 # For multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz".
 # For numbers which are multiples of both three and five print "FizzBuzz"
 
-for x in range(50):
+raw_a = input("beginning number")
+raw_b = input("ending number")
+
+a = int(raw_a)
+b = int(raw_b)
+
+for x in range(a, b):
     if x % 3 == 0 and x % 5 == 0:
         print ("fizzbuzz")
         continue
